@@ -1,0 +1,267 @@
+@media screen and (min-width:768px) {
+    .container { width: 750px; }
+    /*    header.header .container-fluid{ width:750px; }*/
+    .flex { display: flex; }
+    .align-center { align-items: center; }
+    .align-top { align-items: flex-start; }
+    .align-bottom { align-items: flex-end; }
+    .space-between { justify-content: space-between; }
+    .justify-center { justify-content: center; }
+    .justify-end { justify-content: flex-end; }
+    .row-wrap { flex-flow: row wrap; }
+    .flex-reverse { flex-flow: row-reverse; } 
+}
+@media screen and (min-width:992px) {
+    .container { width: 970px; }
+
+    /*    header.header .container-fluid{ width:970px; }*/
+    .top-part .container { padding-left: 420px; }
+}
+@media screen and (min-width:1200px) {
+    .container { width: 1170px; }
+    /*    header.header .container-fluid{ width:1170px; }*/
+/*    .mobile-dropdown-toggle { display: none; }*/ }
+
+@media screen and (min-width:1429px) {
+    .container { width: 1270px; }
+/*    header.header .container-fluid{ width:1270px; }*/ }
+@media screen and (min-width:1730px) { }
+@media screen and (min-width:1920px) {
+    footer .top-part .container { padding-left: 120px; }
+}
+@media screen and (max-width:1829px) { }
+@media screen and (max-width:1629px) { }
+@media screen and (max-width:1429px) { }
+@media screen and (max-width:1199px) { }
+
+@media screen and (max-width:992px) {
+    header.header .right-menus { display: none; }
+    header.header .right-button > a { display: block !important; font-size: 12px; font-weight: 700; width: 188px; padding: 17px 15px }
+    header.header .right-button.button-1 { margin: 0 0 0 auto; }
+    .mobile-toggle { display: block; margin: 0 10px 0 0; z-index: 1; }
+    .mobile-toggle span { transition: 400ms; width: 21px; height: 2px; background-color: var(--primarycolor); display: block; }
+    .mobile-toggle span + span { margin: 4px 0 0 0; }
+    header.header .right-menus { top: 65px; position: absolute; background-color: #ffffff; left: 0; top: 48px; }
+    header.header .right-menus .inner-right-menus > ul > li { display: block; width: 100%; padding: 15px 10px; text-align: center; }
+    header.header .right-menus, header.header .right-menus .inner-right-menus > ul > li.has-dropdown .desktop-dropdown-menu { width: 100%; }
+    header.header .right-menus .inner-right-menus > ul > li { border-bottom: 1px solid #DBE8EB; }
+    header.header .right-menus .inner-right-menus > ul > li > a { padding: 0; }
+    .service .service-inner .hover-text { height: 100%; width: 100%; }
+    .service .service-inner .nos-solutions-list-text { width: 100%; top: 15px; left: 15px; }
+    .service .service-inner .hover-text { padding: 70px 15px; }
+    .service .service-inner { font-size: 18px; line-height: 27px; }
+    .service .service-inner p { font-size: 10px; }
+}
+@media screen and (max-width:768px) {
+    .nos-expertises .nos-expertises-right,.propos .propos-box-left,.propos .propos-box-right,.home-banner .home-banner-inner .home-banner-text .h2,.service-banner .home-banner-inner .home-banner-text .h2,.pourquoi-choisir .pourquoi-choisir-inner .pourquoi-choisir-box-para,.la-mise .la-mise-inner .la-mise-box,.conseils-plus .conseils-plus-inner .conseils-plus-text,.quels-services .quels-services-inner .quels-services-right,section.raisons .raisons-right,section.raisons .raisons-left,section.contact .contact-right,section.contact .contact-left,.contact-right .add-on-details-form form .form,section.mentions .mentions-bottom .mentions-bottom-left,section.mentions .mentions-bottom .mentions-bottom-right,,.rechercher .rechercher-inner .rechercher-left,.rechercher .rechercher-inner .rechercher-right{ width:100%; }
+    .quels-services .quels-services-inner .quels-services-right,section.contact .contact-left{ margin:0; }
+    .la-mise .la-mise-inner .la-mise-box,section.raisons .raisons-left,section.raisons .raisons-right,.contact-right .add-on-details-form form .form{ max-width:100%; }
+    .team-photo .container p{ text-align:center; }
+    section.conseils-plus.sap.vous-gagnez.quels-services .conseils-plus-inner.sap-inner.vous-gagnez-inner.d-flex.quels-services-inner,.contact .contact-inner,section.mentions .mentions-bottom,.rechercher .rechercher-inner{ flex-wrap:wrap; }
+    body{ margin:48px 0 0 0; }'
+    section.raisons{ padding:50px 0; }
+    section,section.home-banner,.consulting,.service-form .service-form-inner,section.contact .contact-right .add-on-details-form{ padding: 20px 0; }    
+    .nos-expertises .nos-expertises-right,.propos .propos-box-left{ max-width: 100%; margin: 0; padding: 8px 30px; }
+    .service .service-inner .nos-solutions-list-inner .service-list { width: calc(100%/2 - 20px); }
+    .service .service-inner .nos-solutions-list-img:after { width: 250px; height: 286px; }
+    .nos-solutions-list-inner.d-flex { gap: 10px; }
+    footer .bottom-part .list{ width:48%; }
+    footer .bottom-part .footer-links { text-align: center; width:100%; }
+    footer .footer-links .right-button.button-1.d-flex,footer .social-links > ul{ justify-content:center; }
+    footer .top-part .top-part-inner{ padding: 0 0 0 370px; }
+    footer .top-part .left-img{ bottom: 0; top: 108px;  }
+    footer .top-part .left-img span.footer-top-ellipse-shape{ bottom: -200px; top: auto; }
+    footer .top-part .top-part-inner-left h2{ font-size: 30px; line-height: 34px; }
+    footer .top-part .top-part-inner-right{ padding:10px 0; }
+    footer .top-part .top-part-inner-left p,.service-banner .home-banner-inner .home-banner-text .top-text{ font-size: 15px; line-height: 23px; }
+    .team-photo .team-image-text > p,.team-photo .author{ padding: 6px 35px; font-size: 16px; line-height: 22px; }
+    .team-photo .team-image-text .quote{ width: 30px; }
+    .propos .propos-box-right .box .idea-text p,.nos-expertises .nos-expertises-right p{ font-size:16px; line-height:20px; }
+    .propos .propos-box-right .box .idea-text .h3{ font-size: 16px; line-height: 24px; padding: 9px 0 4px; }
+    .propos .propos-box-right .box{ padding:110px 29px 29px 29px; }
+    .propos .propos-box-right .box{ height: 440px; margin: 0; }
+    .nos-expertises .nos-expertises-right .nos-expertises-text > h3,.propos .propos-box-left .h2 { font-size: 25px; line-height: 33px; }
+    .button-1 a{ font-size: 18px; }
+    .propos .propos-box-left,.nos-expertises .nos-expertises-right .nos-expertises-list,.contact-home-section{ padding: 0; }
+    .numbers .numbers-inner > article > p { font-size: 14px; line-height: 23px;}
+    .numbers .numbers-inner .number,.home-banner .home-banner-inner .home-banner-text .h2 { font-size: 60px; line-height: 65px;}
+    .service .service-inner .nos-solutions-list-inner .service-list{ width: 50%; }
+    .home-banner .home-banner-inner .home-banner-text .top-text { font-size: 14px; line-height: 16px; margin:0; }
+    .home-banner .home-banner-inner .desktop-home-logo{ bottom: 10px; right: 30px; }
+    .service-banner .home-banner-inner .home-banner-text .h2{ margin:0; font-size: 35px; line-height: 40px; padding: 10px 0; }
+    .support-nos-offres-left,.support-nos-offres .support-nos-offres-inner .support-nos-offres-right{ width:calc(100%/2 - 10px); }
+    .support-nos-offres .support-nos-offres-inner .support-nos-offres-left-bottom,.quels-services-right-que-bottom,.quels-services .quels-services-inner .quels-services-right-que .quels-services-right-que-inner .h3{ font-size: 16px; line-height: 22px; }
+    .support-nos-offres .support-nos-offres-inner .h2,.conseils-plus .conseils-plus-inner .conseils-plus-text .h2,section.conseils-plus .h3{ font-size: 20px; line-height: 26px; }
+    .support-et-maintenance{ padding: 10px 0;  margin: 10px 0 0 0; }
+    .consulting .support-nos-offres-links:nth-child(3),.consulting .support-nos-offres-links:nth-child(4){ border-top: 1px solid var(--primarycolor) }
+    .consulting .support-nos-offres-links .consulting-text .h3,.maintenance-sap .maintenance-sap-inner .maintenance-sap-list .maintenance-sap-box .sap-box-top .h3,.consulting .support-nos-offres-links, .notre-offre .notre-offre-inner .notre-offre-box .notre-offre-box-inner .notre-offre-box-top .h3,.pourquoi-choisir .pourquoi-choisir-inner .pourquoi-choisir-box-para .h3{ font-size: 16px; line-height: 22px; margin:0; }
+    .consulting .support-nos-offres-links .consulting-arrow{ width:27px; }
+    .consulting .support-nos-offres-links,.notre-offre .notre-offre-inner .notre-offre-box .notre-offre-box-inner .notre-offre-box-top .h3{ padding:10px 0; }
+    .maintenance-sap .maintenance-sap-inner .maintenance-sap-list .maintenance-sap-box{ margin:15px 5px 0 5px; padding: 10px 15px; }
+    .maintenance-sap .maintenance-sap-inner .maintenance-sap-list .maintenance-sap-box .sap-box-top .h3 { padding:5px 0; }
+    .sevice-list .sevice-list-inner > ul > li > a,.maintenance-sap .maintenance-sap-inner .maintenance-sap-list .maintenance-sap-box .sap-box-bottom p{ font-size: 11px; line-height:16px; }
+    .maintenance-sap{ padding: 50px 0; }
+    .maintenance-sap:after{ width: 276px; border: 30px solid #9BD2DF; height: 278px; top: -167px; right: -155px; }
+    .maintenance-sap .maintenance-sap-inner .maintenance-sap-list .maintenance-sap-box{  width: calc(100%/4 - 10px); }
+    .notre-offre .notre-offre-top { padding: 25px 0 10px;  }
+    .notre-offre .notre-offre-inner .notre-offre-box,.service-form-left-img .service-form-img-box{ width: calc(100%/3); padding: 25px 0; }
+    .notre-offre .notre-offre-inner .notre-offre-box .notre-offre-box-inner{ padding: 30px; }
+    .notre-offre .notre-offre-inner .notre-offre-box .notre-offre-box-inner ul > li,.notre-offre .notre-offre-inner .notre-offre-box .notre-offre-box-inner p,.pourquoi-choisir .pourquoi-choisir-inner .pourquoi-choisir-box-para p,.vous-gagnez .vous-gagnez-inner .conseils-plus-para ul > li,.vous-gagnez .vous-gagnez-inner .conseils-plus-para p,section.produits-similaire .produits-inner .project-add-on,section.des-valeurs .des-valeurs-bottom .des-valeurs-text .des-valeurs-text-inner p{ font-size:14px; line-height:22px; }
+    .pourquoi-choisir .pourquoi-choisir-inner .pourquoi-choisir-bottom .pourquoi-choisir-box .padding-para { padding: 10px 0 10px; }
+    .pourquoi-choisir .pourquoi-choisir-inner .pourquoi-choisir-box-para{ padding-left: 50px; }
+    .vous-gagnez .vous-gagnez-inner .conseils-plus-para ul > li{ padding:3px 0; }
+    .service-form-left-img .service-form-img-box{ text-align: center; margin: 0 10px; }
+    section.produits-similaire .produits-inner .rechercher-project-text .h3,section.des-valeurs .des-valeurs-bottom .des-valeurs-text .des-valeurs-text-inner .h3{ font-size:14px; }
+/*    section.produits-similaire .produits-inner .rechercher-project-text { margin: 0 0 0 90px;}*/
+    section.produits-similaire .produits-inner .rechercher-project-text { padding: 20px 0 10px;}
+    section.produits-similaire .produits-inner .project-add-on{ top: 113px; }
+    section.produits-similaire .produits-inner .produits-box > a .rechercher-project{ margin: 15px 0 0 0; }
+    section.domaine .nos-solutions-list .service-list:after{ width: 333px; height: 100%; }
+    section.raisons .raisons-box { width: 48%; }
+    section.raisons .raisons-box-list { padding: 50px 0; }
+    section.raisons .raisons-box:nth-child(3){ margin:40px 5px 0; }
+    section.des-valeurs .des-valeurs-bottom .des-valeurs-img{ max-width:50%; }
+    section.des-valeurs .des-valeurs-bottom .des-valeurs-text{ width:50%; padding-left: 20px;}
+    section.aimez .aimez-box-left{  padding: 70px 30px 30px 30px; }
+    section.contact .contact-left{ padding:10px 15px; }
+    .add-on-details-form form{ padding:0; }
+    section.demo .contact-home-section { padding: 40px 0 0 0; }
+    .rechercher .rechercher-inner .rechercher-right .rechercher-project-img img{ width:100%; }
+}
+
+@media screen and (max-width:576px) {
+    .slick-slider{ display:none; }
+    .h3 { font-size: 18px; line-height: 26px; }
+    .button-1 a{ font-size:16px; }
+    .conseils-plus .conseils-plus-inner,.support-nos-offres .support-nos-offres-inner,section.conseils-plus.sap.vous-gagnez.quels-services .conseils-plus-inner,.maintenance-sap .maintenance-sap-list,.pourquoi-choisir .pourquoi-choisir-bottom .pourquoi-choisir-box,.service-form .service-form-inner,section.sevice-list .sevice-list-inner>ul,.service-form-left-img,.mise-en-place-du-projet,.carriere-raisons .carriere-raisons-inner,.missions .missions-inner ,.contact .contact-inner,.contact .contact-inner .tours,section.mentions .mentions-bottom,.rechercher .rechercher-inner { flex-wrap:wrap; }
+    .service-form-left-img{ gap:5px; }
+    header.header .right-menus { display: none; position: absolute; background-color: #ffffff; top: 48px; }
+    section.home-banner { height: 100%; overflow: hidden; }
+    body { margin: 50px 0 0 0; }
+    footer .top-part .top-part-inner { padding: 150px 0 50px; }
+    footer .top-part .top-part-inner-left h2 { font-size: 30px; line-height: 35px; font-weight: 700; }
+    footer .top-part .top-part-inner-right { margin: 0; }
+    footer .top-part .top-part-inner-left p { padding: 0 0 22px 0; }
+    footer .top-part .left-img span.footer-top-ellipse-shape { left: -227px; }
+    footer .bottom-part .mobile-set { width: calc(100%/2 - 10px); }
+    footer .bottom-part .container { padding: 0 15px; }
+    footer .footer-list ul > li > a { padding: 5px 0; }
+    footer .bottom-part .footer-links { width: 100%; display: block; text-align: center; }
+    footer .bottom-part .social-links, footer .bottom-part .right-button { justify-content: center; display: flex; }
+    footer .footer-list > ul > li > a, footer .footer-links .suivez-nous { font-size: 12px; line-height: 18px; }
+    footer .social-links, footer .bottom-part .footer-links { padding: 10px 0 30px; }
+    footer .copy-right { line-height: 27px; padding: 20px 25px; }
+    .nos-expertises .nos-expertises-right { margin: 30px 15px 0 15px; }
+    .nos-expertises-img { padding: 0 20px 0 0; }
+    .nos-expertises .nos-expertises-right .nos-expertises-text > h3,.add-on-details .add-on-details-right .add-on-details-head .h2 { font-size: 26px; line-height: 34px; }
+    .nos-expertises .nos-expertises-right .right-button.button-1.d-flex.btn-2 { font-size: 13px; }
+    .nous-recrutons .nous-recrutons-left .nous-recrutons-btn .nous-recrutons-btn-2 > a { margin: 10px 0 0 0; }
+    .nos-expertises .nos-expertises-right { margin: 30px 15px 30px 15px; }
+    .propos .propos-box-right .box, .propos .propos-box-right,.add-on-details .add-on-details-left,.add-on-details .add-on-details-right,form .form .votre-nom > label > input, form .form .votre-nom > label > textarea,.pourquoi-choisir .pourquoi-choisir-inner .pourquoi-choisir-bottom .pourquoi-choisir-box-img,.pourquoi-choisir .pourquoi-choisir-inner .pourquoi-choisir-box-para,.service-form-left,.maintenance-sap .maintenance-sap-inner .maintenance-sap-list .maintenance-sap-box,.notre-offre .notre-offre-inner .notre-offre-box,section.dernières .dernières-inner .dernières-bottom .dernières-box-list .dernières-box,.add-on-details .add-on-details-right .maintenance, .add-on-details .add-on-details-right .calculation,.consulting .support-nos-offres-links,.error-page-text,section.carriere-raisons .carriere-raisons-inner .carriere-raisons-left,iframe ,section.missions .missions-left,section.missions .missions-right,section.blog-list .blog-box,section.contact .contact-left,.blog-box-img img,.tours-box.d-flex.justify-content-between.align-items-center,section.mentions .mentions-bottom .mentions-bottom-left,section.mentions .mentions-bottom .mentions-bottom-right,section.raisons .raisons-box,.rechercher .rechercher-inner .rechercher-left,.rechercher .rechercher-inner .rechercher-right{ width: 100%; }
+    .propos .propos-box-right .box .idea-text .h3 { font-size: 14px; line-height: 20px; font-weight: 700; }
+    .propos .propos-box-right .box .idea-text ul > li > p,.add-on-details .add-on-details-right .add-on-details-text p,.add-on-details .add-on-details-right .add-on-details-text ul li { font-size: 16px; line-height: 24px; }
+    .propos .propos-box-right .box { padding: 60px 20px 20px 20px; }
+    .home-banner .home-banner-inner .home-banner-text .h2,section.contact .contact-left .propos-home-banner-text .contact-home-section .h2 { font-size: 30px; line-height: 34px; }
+    .home-banner-btn > div, .service .service-inner .nos-solutions-list-inner .service-list { width: 100%; }
+    .home-banner .home-banner-inner .btn-2 { margin: 10px 0 0 0; }
+    .home-banner .home-banner-inner .home-banner-text .top-text { font-size: 16px; line-height: 24px; }
+    .support-nos-offres .support-nos-offres-inner .support-nos-offres-right, .home-banner .home-banner-inner .home-banner-text .h2, .support-nos-offres .support-nos-offres-inner .support-nos-offres-left, .conseils-plus .conseils-plus-inner .conseils-plus-para, .conseils-plus .conseils-plus-inner .conseils-plus-para,.conseils-plus .conseils-plus-inner .conseils-plus-text,section.carriere-raisons .carriere-raisons-inner .carriere-raisons-right { width: 100%; }
+    .numbers .number-list .numbers-inner { width: calc(100%/2 - 20px); }
+    section, .quels-services .quels-services-inner .quels-services-right-que { padding: 20px 0; }
+    .home-banner .home-banner-inner { height: auto; }
+    .home-banner { padding: 25px 0 120px; }
+    .service .service-inner .hover-text { padding: 110px 33px 39px; width: 100%; height: 100%; }
+    .service .service-inner .hover-text .hover-text-inner > p,.add-on-details .add-on-details-right .add-on-details-bottom .team-image-text p { font-size: 12px; line-height: 21px; font-weight: 400; }
+    .service .service-inner .hover-btn { margin: 0; bottom: 20px; }
+    .numbers .number-list .numbers-inner { padding: 20px 0; }
+    .numbers .numbers-inner .number { font-size: 45px; }
+    .numbers .numbers-inner > article > p { font-size: 16px;  }
+    .nos-expertises .nos-expertises-right { margin: 30px 10px 30px 30px; }
+    .team-photo .team-image-text > p { font-size: 20px; line-height: 28px; padding: 25px 0; }
+    footer .top-part .left-img { width: 276px; top: 5px;left: -162px;}
+    footer .top-part .left-img span.footer-top-ellipse-shape { left: -131px; top: -203px; }
+    .left-padd { padding: 0 0 0 20px; }
+    .desktop-backgroud-photo-hidden { display: none; }
+    .mobile-backgroud-photo { display: block; width: 100%; position: absolute; top: 0; left: 0; z-index: -1; height: 100%; }
+    .support-et-maintenance,section.mentions .mentions-bottom .mentions-bottom-right-text .direction,section.mentions .mentions-bottom .mentions-bottom-right-text p, { margin: 0; padding: 10px 0; }
+    .home-banner .desktop-backgroud-photo { width: max-content; }
+    .service-banner { padding: 25px 0 30px; }
+    .service-banner .home-banner-inner .home-banner-text .h2,section.propos-home-banner .propos-home-banner-text .propos-home-banner-heading > .h2,.propos-home-banner .error-page-text .h2 { margin: 10px 0 5px; font-size: 30px; line-height: 43px; }
+    .mobile-backgroud-photo img { width: 100%; }
+    .home-banner .home-banner-inner .desktop-home-logo { bottom: 15px; width: 75px; left: auto; right: 10px; }
+    .home-banner .right-button { font-size: 16px; }
+    .home-banner .home-banner-inner .home-banner-text .h2 { margin: 0 0 25px 0; }
+    .team-image { height: 100%; }
+    .team-photo .team-image-text .quote,.add-on-details-bottom .team-image-text .quote{ width: 20px; }
+    .team-photo .author,.add-on-details-bottom,section.carriere-raisons .carriere-raisons-inner .carriere-raisons-left { padding: 0; }
+    .team-image img { height: 100%; object-fit: cover; width: 100%; }
+    section.service-banner { height: 100%; overflow: hidden; }
+    .service-banner, .quels-services .quels-services-inner .quels-services-right { margin: 0; }
+    .solution-nos-expertises .nos-expertises-right { margin: 0 10px; }
+    .support-nos-offres .support-nos-offres-inner .h2 { font-size: 16px; line-height: 35px; margin: 0; }
+    .quels-services .quels-services-inner .quels-services-right-que .quels-services-right-que-inner .h3 { font-size: 13px; }
+    .support-nos-offres .support-nos-offres-inner { gap: 0; }
+    .add-on-details .add-on-details-inner{ flex-wrap:wrap; }
+    .add-on-details .add-on-details-right .add-on-details-btn .h2{ margin:10px 0; }
+    .add-on-details .add-on-details-right .add-on-details-text p, form .form-head > p{ padding:7px 0; }
+    .add-on-details .add-on-details-right .mise-en-place-du-projet .h3,.expertise-sap .expertise-sap-text .expertise-sap-text-inner .h3,form .form-head > p{ font-size:10px; line-height:15px; }
+    .add-on-details .add-on-details-right .mise-en-place-du-projet p,.expertise-sap .expertise-sap-text .expertise-sap-text-inner .h2{ font-size:9px; line-height:11px; }
+    form{ padding:25px; }
+    section.produits-similaire .produits-inner{ gap:20px; }
+    section.produits-similaire .produits-inner .produits-box { display:flex; justify-content:center; }
+    .pourquoi-choisir .pourquoi-choisir-inner .pourquoi-choisir-box-para,.service-form .service-form-inner,.contact-home-section,section.demo .contact-home-section{ padding:0; }
+    .sevice-list .sevice-list-inner > ul > li { width: calc(100%/2);}
+    .sevice-list .sevice-list-inner > ul > li > a { font-size: 10px; padding: 0; }
+    .sevice-list { margin: 25px 0; height:100%; }
+    .notre-offre .notre-offre-inner .notre-offre-box .notre-offre-box-inner{ border-right:none; padding:0 40px; }
+    .notre-offre .notre-offre-inner .notre-offre-box{ padding:25px 0; }
+    .service-form .service-form-inner .service-form-left .service-form-left-top .h2 { font-size: 35px; line-height: 44px; }
+    .service-form-left-img p,.top-text{ font-size:14px; line-height:18px }
+    .service-form-left-img .service-form-img-box{ width:40% }
+    .service-form-left-info,section.management .management-box-list .management-box .management-box-text .management-box-text-inner > p{ padding:10px 0; }
+    .la-mise .la-mise-inner .la-mise-bottom{ gap:30px; }
+    .team-photo .author,.notre-offre .notre-offre-inner .notre-offre-box .notre-offre-box-inner .notre-offre-box-top .h3{ padding:6px 0px; }
+    .pourquoi-choisir .pourquoi-choisir-inner .pourquoi-choisir-bottom .pourquoi-choisir-box .padding-para { padding: 10px 0 20px; font-size: 16px; line-height: 22px; }
+    .pourquoi-choisir .pourquoi-choisir-inner .pourquoi-choisir-box-para,.pourquoi-choisir .pourquoi-choisir-inner .pourquoi-choisir-box-para .h3,section.blog-list .blog-box-text .h3{ font-size: 16px; line-height: 22px; }
+    .notre-offre .notre-offre-inner .notre-offre-box .notre-offre-box-inner{ height: 100%; }
+    .notre-offre .notre-offre-top{ padding:20px 0 10px; }
+    .maintenance-sap,.add-on-details .add-on-details-inner,iframe{ padding:25px 0; }
+    section.management .management-box-list .management-box .management-box-text .h2 { font-size: 30px; line-height: 38px; }
+    section.management .management-box-list .management-box .management-box-text .management-box-text-inner > p{ font-size: 14px; line-height: 20px; }
+    section.management .management-box-list .management-box .management-box-text:after{ bottom: -158px; right: -146px; }
+    .add-on-details .add-on-details-right .mise-en-place-du-projet{ gap:15px; }
+    .add-on-details-form form ,section.carriere-raisons .carriere-raisons-inner .carriere-raisons-right .carriere-raisons-right-text .h3{ padding: 20px; }
+    form .form .votre-nom > label > input ~ span, form .form .votre-nom > label > textarea ~ span{ font-size: 13px; }
+    .support-nos-offres-links:nth-child(1){ border-bottom:none; }
+    .propos .propos-box-right { margin:10px 0; gap:10px; }
+    section.blog-list .blog-box-text{ padding:10px; }
+    section.contact .contact-left,.castle-tower{ margin:0; }
+    section.blog-list .blog-box-text p{ font-size:12px; line-height:18px; }
+    section.carriere-raisons .carriere-raisons-inner .carriere-raisons-left .carriere-raisons-left-text > .button-1 a { padding: 15px 70px; }
+/*    .contact .contact-inner{ padding:0 15px; }*/
+    section.blog-list .blog-box { width: 96%; margin: 0 2%; }
+    .tours-text{ width:50%; }
+   /* .tours-box .tours-text .h3{ font-size:14px; }
+    .tours-box .tours-text p { font-size: 11px; line-height: 18px; }*/
+    section.domaine .nos-solutions-list .service-list:after{ width: 395px; }
+    section.produits-similaire .produits-inner .project-add-on { top: 160px; }
+    .rechercher .rechercher-inner .rechercher-right .project-add-on{ top: 220px; }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
